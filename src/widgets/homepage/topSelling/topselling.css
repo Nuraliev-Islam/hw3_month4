@@ -1,21 +1,26 @@
-.arrivalCont{
+.topCont{
     width: 100%;
-    border-bottom: 1px solid #0000001A;
 }
 
-#viewer{
+#viewer1{
     width: 218px;
     height: 52px;
     padding: 16px 54px;
-    margin: 36px 515px;
+    margin: 36px;
     gap: 12px;
     border-radius: 62px;
     border: 1px solid #0000001A;
     background-color: white;
-    margin-bottom: 70px;
 }
 
-#newarrivals{
+#viwerCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#TopSelling{
     text-align: center;
     margin: 72px 55px ;
     font-family: 'Integral CF Regular';
@@ -24,10 +29,12 @@
     line-height: 57px;
 }
 
-.arrivalsCont .flexItem{
-    justify-content: center;
+.topCont .flexitem{
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
-
+.topcont{
+    border-top: 1px solid #0000001A;
+}

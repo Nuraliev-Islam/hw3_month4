@@ -1,0 +1,76 @@
+.dressCont{
+    width: 100%;
+}
+
+.dressContainer{
+    display: flex;
+    flex-flow: column;
+    background-color: #F0F0F0;
+    width: 1239px;
+    height: 866px;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.dressContainer h2{
+    font-family: 'Integral CF Regular';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.dressIcons{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1100px;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.dressIcons button{
+    width: 407px;
+    height: 289px;
+    border-radius: 20px;
+    flex-grow: 1;
+    text-align: left;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    font-family: Satoshi;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+}
+
+#btn2,#btn3{
+    flex-grow: 8;
+}
+
+#btn1{
+    background-image: url('../../../imgs/homepage/image11.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#btn2{
+    background-image: url('../../../imgs/homepage/image13.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#btn3{
+    background-image: url('../../../imgs/homepage/image12.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#btn4{
+    background-image: url('../../../imgs/homepage/image14.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+}

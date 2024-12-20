@@ -1,3 +1,16 @@
 .cardCont{
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.cardCont h3{
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 16px 0;
+}
+
+.cardCont .h2{
+    font-size: 28px;
 }

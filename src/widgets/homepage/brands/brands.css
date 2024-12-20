@@ -1,0 +1,16 @@
+.blackBanner{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 122px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.blackBanner img{
+    width: 166px;
+    height: 33px;
+    object-fit: contain;
+    margin: 42px 100px;
+}
